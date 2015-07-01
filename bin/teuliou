@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+require 'teuliou'
+require 'thor'
+
+# the teuliou command line interface class
+class TeuliouCLI < Thor
+  desc 'book', 'create book from directory'
+  def book(directory)
+    Teuliou.build_book(directory)
+  end
+end
+
+TeuliouCLI.start(ARGV)

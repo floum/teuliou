@@ -6,4 +6,3 @@ group :red_green_refactor, halt_on_fail: true do
     watch(/(.+)\.rb/)
   end
 end
-
