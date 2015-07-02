@@ -1,5 +1,7 @@
 # Teuliou
 
+[![Code Climate](https://codeclimate.com/github/floum/teuliou/badges/gpa.svg)](https://codeclimate.com/github/floum/teuliou)
+
 Easily create documents using markdown
 
 ## Contributing

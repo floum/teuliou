@@ -4,6 +4,7 @@ SimpleCov.start
 require 'factory_girl'
 require 'aruba'
 require 'aruba/api'
+require 'teuliou'
 
 include Aruba::Api
 
